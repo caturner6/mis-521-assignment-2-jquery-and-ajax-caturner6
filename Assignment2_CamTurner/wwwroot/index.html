@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet"
+          href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css"
+          integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd"
+          crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+            integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL"
+            crossorigin="anonymous"></script>
+    <title>Foogle Search Engine</title>
+
+</head>
+
+<body>
+    <script src="./js/script.js"></script>
+    <h1 id="topHeader" onclick="backgroundChange()">Foogle Search Engine</h1>
+    <script>
+        function backgroundChange() {
+            document.body.style.backgroundImage = "url('https://i.stack.imgur.com/Of2w5.jpg')";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundSize = "auto auto";
+        }
+    </script>
+    <h1 for="query" class="label label-default">Search Here:</h1>
+    <textarea id="query" name="query"></textarea>
+    <div></div>
+    <button id="button2" value="Search" onclick="apiSearch()" class="btn btn-danger">Search Your Foogles Here!</button>
+        <button id="button1" onclick="getTime()">Current Time</button>
+        <div id="searchResults"></div>
+        <div id="time"></div>
+
+</body>
+
+</html>

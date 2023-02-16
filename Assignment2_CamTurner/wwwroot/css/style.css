@@ -1,0 +1,21 @@
+#button1 {
+    background-color: crimson;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    color: white;
+}
+#button2 {
+    background-color: crimson;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    color: white;
+}
+body {
+    background-color: black;
+    background-image: url("https://png.pngtree.com/back_origin_pic/04/06/21/b5356a15c24502db2bd6e253a62c141d.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
